@@ -3,6 +3,7 @@
 PERTANYAAN
 
 1. Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py, models.py, dan berkas html;
+![bagan](https://github.com/chikqje/Tugas-2-PBP-2022-Jessica-Aulia/blob/main/katalog/Foto%20PR1%20PBP%20no.1.png "Bagan Django")
 
 Pertama, permintaan yang masuk ke dalam server Django akan diproses melalui urls untuk diteruskan ke views yang didefinisikan oleh pengembang untuk memproses permintaan tersebut.
 
