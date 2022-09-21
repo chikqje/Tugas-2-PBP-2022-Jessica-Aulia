@@ -1,0 +1,113 @@
+[
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":1,
+        "fields":{
+            "Watched":"sudah ditonton",
+            "Title":"Miracle in Cell No.7",
+            "Rating": 4,
+            "Release_date": "8 September 2022.",
+            "Review": "Miracle in Cell No.7 film yang mengandung bawang dan membuat penonton kangen dengan sosok ayahnya "
+        }
+},
+{
+        "model":"mywatchlist.MyWatchList",
+        "pk":2,
+        "fields":{
+            "Watched":"belum ditonton",
+            "Title":"Mencuri Raden Saleh",
+            "Rating": 4,
+            "Release_date": "25 Agustus 2022.",
+            "Review": "Film ini memiliki alur cerita yang seru dan asik banget."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":3,
+        "fields":{
+            "Watched":"belum ditonton",
+            "Title":"Sayap-Sayap Patah",
+            "Rating": 5,
+            "Release_date": "18 Agustus 2022.",
+            "Review": "Sayap-Sayap Patah punya drama yang amat kental dan kuat melalui dua casting utamanya, tetapi sayangnya terseok-seok mengerjakan bagian laga dan kriminalnya."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":4,
+        "fields":{
+            "Watched":"sudah ditonton",
+            "Title":"KKN di Desa Penari",
+            "Rating": 3,
+            "Release_date": "30 April 2022.",
+            "Review": "Film yang ditulis skenarionya oleh Lele Laila ini tidak buruk, tapi tidak sampai membuat terpukau apalagi merinding seperti The Cinjuring yang juga di adaptasi dari kisah nyata."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":5,
+        "fields":{
+            "Watched":"sudah ditonton",
+            "Title":"Nanti Kita Cerita tentang Hari Ini",
+            "Rating": 4,
+            "Release_date": "2 Januari 2020.",
+            "Review": "Nanti Kita Cerita Tentang Hari Ini menampilkan kisah nyata kehidupan sebuah keluarga dengan segala kelebihan dan kekurangannya. Film ini seakan menjadi tamparan bagi kita yang menonton untuk merenungi kehidupan masing-masing."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":6,
+        "fields":{
+            "Watched":"belum ditonton",
+            "Title":"Dignitate",
+            "Rating": 4 ,
+            "Release_date": "23 Januari 2020.",
+            "Review": "Film bertema remaja yang menurut orang-orang relate dengan keadaan saat ini."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":7,
+        "fields":{
+            "Watched":"sudah ditonton",
+            "Title":"Yowis Ben 3",
+            "Rating": 3 ,
+            "Release_date": "25 November 2021.",
+            "Review": "Memiliki alur cerita yang seru dan lucu."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":8,
+        "fields":{
+            "Watched":"belum ditonton",
+            "Title":"Nussa",
+            "Rating": 4,
+            "Release_date": "14 Oktober 2021.",
+            "Review": "Film yang cocok untuk ditonton oleh anak-anak dan memiliki alur cerita yang sangat seru dan edukasi yang baik."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":9,
+        "fields":{
+            "Watched":"belum ditonton",
+            "Title":"Ngeri-Ngeri Sedap",
+            "Rating": 4,
+            "Release_date": "2 Juni 2022.",
+            "Review": "Film ini bukan cuma bicara soal rasa rindu pada anak-anak yang merantau, tetapi juga soal cara orang tua dan anak saling berkomunikasi."
+        }
+    },
+    {
+        "model":"mywatchlist.MyWatchList",
+        "pk":10,
+        "fields":{
+            "Watched":"belum ditonton",
+            "Title":"The Doll 3",
+            "Rating": 3, 
+            "Release_date": "26 Mei 2022.",
+            "Review": "Film The Doll 3 menceritakan tentang boneka yang dirasuki oleh arwah.The Doll 3 tetap mampu jadi film slasher penuh hiburan walau tidak sempurna."
+        }
+    }
+      
+]

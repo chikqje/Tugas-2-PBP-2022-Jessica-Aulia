@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Tugas 3 PBP</h1>
+
+<h5>Nama: </h5>
+<p>{{Nama}}</p>
+<h5>NPM: </h5>
+<p>{{NPM}}</p>
+
+<table>
+    <tr>
+    <th>Watched</th>
+    <th>Title</th>
+    <th>Rating</th>
+    <th>Release_date</th>
+    <th>Review</th>
+    </tr>
+    {% comment %} Tambahkan data di bawah baris ini {% endcomment %}
+    {% for datawishlist in list_barang %}
+    <tr>
+        <th>{{datawishlist.Watched}}</th>
+        <th>{{datawishlist.Title}}</th>
+        <th>{{datawishlist.Rating}}</th>
+        <th>{{datawishlist.Release_date}}</th>
+        <th>{{datawishlist.Review}}</th>
+    </tr>
+{% endfor %}
+</table>
+
+{% endblock content %}
