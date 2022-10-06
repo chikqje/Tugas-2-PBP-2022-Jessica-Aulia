@@ -79,3 +79,8 @@ def create_new_task(request):
     return render(request, 'createtask.html', context)
 
 
+def delete_task(request, id):
+    data_task = Task.objects.get(id=id)
+    data_task.delete()
+    return HttpResponseRedirect(reverse('todolist:show_todolist'))
+

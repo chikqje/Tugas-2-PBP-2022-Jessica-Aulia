@@ -2,14 +2,15 @@
 
 {% block meta %}
 <title>Login</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'login.css' %}">
 {% endblock meta %}
 
 {% block content %}
 
+<body>
 <div class = "login">
-
     <h1>Login</h1>
-
     <form method="POST" action="">
         {% csrf_token %}
         <table>
@@ -41,5 +42,6 @@
     Belum mempunyai akun? <a href="{% url 'todolist:register' %}">Buat Akun</a>
 
 </div>
+</body>
 
 {% endblock content %}

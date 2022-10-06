@@ -1,14 +1,23 @@
 {% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+
 
 {% block content %}
-<h1>Tugas 4 PBP</h1>
+<h1>Welcome !!</h1>
+<h5>Username: {{username}}'s To Do List </h5>
 
-<h5>Username: </h5>
-<p>{{username}}</p>
+<head>
+    {% block meta %}
+    <link rel="stylesheet" href="{% static 'todolist.css' %}">
+    {% endblock meta %}
+</head>
 
 
-<table>
-    <tr>
+
+<table class = "table table-bordered w-auto" style="margin-left:auto; margin-right:auto; margin-top:25px;">
+    <thread style="background-color: rgb(14, 15, 15);"></thread>
+    
     <th>Judul</th>
     <th>Tanggal</th>
     <th>Deksripsi</th>
@@ -19,10 +28,40 @@
         <th>{{datatodolist.title}}</th>
         <th>{{datatodolist.date}}</th>
         <th>{{datatodolist.description}}</th>
+        <th><a href="delete_task/{{ datatodolist.id }}" class="btn btn-danger btn-sm">Delete</a></th>
     </tr>
 {% endfor %}
 </table>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap">
+
+    {% for card in list_data %}
+    {#  Single Card Template:#}
+    <div class="card" style="width: 18rem; margin: 10px">
+      <img src="{{ card.image }}" class="card-img-top" >
+      <div class="card-body">
+        <div style="display: flex; flex-direction: row">
+          <h5 class="card-title">{{ card.title }}</h5>
+          {#  Colored cirlce:#}
+          <div style="
+            background: rgb(66, 162, 66);
+            margin-left: 10px;
+            border-radius: 50%;
+          "></div>
+        </div>
+        <p class="card-text">{{ card.description }}</p>
+        <p class="card-text">{{ card.date }}</p>
+        <a class="btn btn-outline-secondary btn-sm" href="delete_task/{{ card.id }}">Delete</a>
+      </div>
+    </div>
+    {% endfor %}
+  
+  </div>
+
+
+
 <button><a href="{% url 'todolist:create_new_task' %}">Tambah Task Baru</a></button>
 <button><a href="{% url 'todolist:logout_user' %}">Logout</a></button>
 <h5>Sesi terakhir login: {{ last_login }}</h5>
 {% endblock content %}
+
