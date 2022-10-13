@@ -15,6 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from todolist.views import todolist_json
+from todolist.views import todolist_add
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -22,6 +26,8 @@ urlpatterns = [
     path('katalog/', include('katalog.urls')),
     path('mywatchlist/', include('mywatchlist.urls')),
     path('todolist/', include('todolist.urls')),
+    path('json/', todolist_json, name='todolist_json'),
+    path('add/', todolist_add, name='todolist_add'),
 ]
 
 # TODO: Implement Routings Here
