@@ -3,7 +3,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":1,
         "fields":{
-            "Watched":"sudah ditonton",
+            "Watched":true,
             "Title":"Miracle in Cell No.7",
             "Rating": 4,
             "Release_date": "8 September 2022.",
@@ -14,7 +14,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":2,
         "fields":{
-            "Watched":"belum ditonton",
+            "Watched":false,
             "Title":"Mencuri Raden Saleh",
             "Rating": 4,
             "Release_date": "25 Agustus 2022.",
@@ -25,7 +25,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":3,
         "fields":{
-            "Watched":"belum ditonton",
+            "Watched":false,
             "Title":"Sayap-Sayap Patah",
             "Rating": 5,
             "Release_date": "18 Agustus 2022.",
@@ -36,7 +36,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":4,
         "fields":{
-            "Watched":"sudah ditonton",
+            "Watched":true,
             "Title":"KKN di Desa Penari",
             "Rating": 3,
             "Release_date": "30 April 2022.",
@@ -47,7 +47,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":5,
         "fields":{
-            "Watched":"sudah ditonton",
+            "Watched":true,
             "Title":"Nanti Kita Cerita tentang Hari Ini",
             "Rating": 4,
             "Release_date": "2 Januari 2020.",
@@ -58,7 +58,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":6,
         "fields":{
-            "Watched":"belum ditonton",
+            "Watched":false,
             "Title":"Dignitate",
             "Rating": 4 ,
             "Release_date": "23 Januari 2020.",
@@ -69,7 +69,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":7,
         "fields":{
-            "Watched":"sudah ditonton",
+            "Watched":true,
             "Title":"Yowis Ben 3",
             "Rating": 3 ,
             "Release_date": "25 November 2021.",
@@ -80,7 +80,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":8,
         "fields":{
-            "Watched":"belum ditonton",
+            "Watched":false,
             "Title":"Nussa",
             "Rating": 4,
             "Release_date": "14 Oktober 2021.",
@@ -91,7 +91,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":9,
         "fields":{
-            "Watched":"belum ditonton",
+            "Watched":false,
             "Title":"Ngeri-Ngeri Sedap",
             "Rating": 4,
             "Release_date": "2 Juni 2022.",
@@ -102,7 +102,7 @@
         "model":"mywatchlist.MyWatchList",
         "pk":10,
         "fields":{
-            "Watched":"belum ditonton",
+            "Watched":false,
             "Title":"The Doll 3",
             "Rating": 3, 
             "Release_date": "26 Mei 2022.",
